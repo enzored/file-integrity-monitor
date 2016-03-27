@@ -1,3 +1,7 @@
+#SIMPLE FILE INTEGRITY MONITOR
+#No DB, just files.
+#Enzored# Christian Bajada http://www.netsec.com.mt
+
 import os, hashlib, json
 import smtplib,time
 from logging.handlers import RotatingFileHandler
