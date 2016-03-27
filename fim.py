@@ -4,8 +4,8 @@ from logging.handlers import RotatingFileHandler
 
 #enzored: User just needs to fill in the following conf params. Use ['*'] if you want to monitor all files
 fileExtensions = ['.php', '.jpg', '.docx']
-dirsToMonitor = ['D:/Documents']
-resultsdir = 'D:/temp'
+dirsToMonitor = ['D:/Documents'] #you can add more e.g. ['/etc/conf', '/opt/test']
+resultsdir = 'D:/temp' #a writeable location where this script will store its results.
 emailfrom = "fim@yourdomain.com"
 emailto = "myemail@yourdomain.com"
 smtpserver = 'localhost'
